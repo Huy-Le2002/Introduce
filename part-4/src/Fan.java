@@ -8,6 +8,13 @@ public class Fan {
     private double radius = 5;
     private String color = "blue";
 
+    public Fan(int speed, boolean on, double radius, String color) {
+        this.speed = speed;
+        this.on = on;
+        this.radius = radius;
+        this.color = color;
+    }
+
     public int getSpeed() {
         return speed;
     }
@@ -42,5 +49,15 @@ public class Fan {
     public Fan() {
     }
 
-    void
+    @Override
+    public String toString() {
+        return "Color: " + this.color + " Radius " + this.radius + (this.on ? " fan is on":" fan is off");
+    }
+
+    public static void main(String[] args) {
+        Fan fan1 = new Fan(3,true,10,"yellow");
+        System.out.println(fan1.toString());
+        Fan fan2 = new Fan(2,false,5,"blue");
+        System.out.println(fan2);
+    }
 }
