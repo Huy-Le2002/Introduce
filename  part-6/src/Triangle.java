@@ -1,4 +1,3 @@
-package triangle;
 
 public class Triangle {
     public double side1 = 1.0;
@@ -41,4 +40,13 @@ public class Triangle {
         return this.side1+this.side2+this.side3;
     }
 
+    public double getArea() {
+        return (Math.sqrt(this.getPerimeter()*(this.getPerimeter()) - this.side1)*(this.getPerimeter() - this.side2)*(this.getPerimeter() - this.side3));
+    }
+
+    public static void main(String[] args) {
+        Triangle triangle = new Triangle();
+        System.out.println(triangle.getPerimeter());
+        System.out.println(triangle.getArea());
+    }
 }
