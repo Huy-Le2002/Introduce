@@ -9,8 +9,6 @@ public class Test2 {
             a[i] = scanner.nextInt();
         }
 
-
-
         int increase = 0;
         int reduction = 0;
         for (int i = 0; i < a.length - 1; i++) {
