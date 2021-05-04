@@ -8,6 +8,7 @@ public class Test {
         st.push(15);
         st.push(20);
         st.push(25);
+//        st.push(28);
         st.display();
         System.out.println("*************************");
         System.out.println(st.pop());

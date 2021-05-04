@@ -7,7 +7,7 @@ public class StackArray <E>{
     private E[] elements;
 
     public StackArray(){
-        elements = (E[]) new Object[6];
+        elements = (E[]) new Object[5];
     }
 
     public void ensureCapa(){

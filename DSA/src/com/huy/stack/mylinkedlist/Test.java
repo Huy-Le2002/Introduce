@@ -8,8 +8,9 @@ public class Test {
         st.push(15);
         st.push(20);
         st.push(25);
+        st.pop();
         st.display();
         System.out.println("****************************");
-        System.out.println(st.search(10));
+        System.out.println(st.search(20));
     }
 }

@@ -14,9 +14,10 @@ public class MyLinkedList<E> {
         } else {
             Node temp;
             temp = this.head;
-            this.head.next = temp;
-            size++;
+            head = new Node<>(e);
+            head.next = temp;
         }
+        size++;
     }
 
     public void addLast(E e) {
@@ -26,8 +27,8 @@ public class MyLinkedList<E> {
             Node temp = new Node(e);
             this.tail.next = temp;
             this.tail = temp;
-            size++;
         }
+        size++;
     }
     public void add(int index,E e) {
         if (index == 0) {
@@ -36,14 +37,15 @@ public class MyLinkedList<E> {
             addLast(e);
         } else {
             Node holder = head;
-            for (int i = 0; i < index;i++) {
+            for (int i = 0; i < index-1;i++) {
                 holder = holder.next;
             }
             Node temp = holder.next;
             holder.next = new Node(e);
-            temp.next = temp;
-            size++;
+            holder.next.next = temp;
+
         }
+        size++;
     }
      public E removeFirst() {
         if (isTempty()) {
@@ -55,25 +57,27 @@ public class MyLinkedList<E> {
             if (this.head == null) {
                 this.tail = null;
             }
-            return (E) temp.element;
+            return (E) temp.element; //?
         }
      }
     public E removeLast(){
         if(size == 0){
             return null;
-        } else if(size == 1) {
+        }
+        else if(size == 1) {
             Node temp = head;
             this.tail = this.head = null;
             size = 0;
             return (E) temp.element;
-        } else{
+        }
+        else{
             Node holder = head;
-            for (int i = 0; i < size - 2; i++){
+            for (int i = 0; i < size - 2; i++){ //?size -1 ?
                 holder = holder.next;
             }
             Node temp = this.tail;
-            tail = holder;
-            tail.next = null;
+
+            holder.next = null;
             size--;
             return (E) temp.element;
         }
@@ -86,11 +90,11 @@ public class MyLinkedList<E> {
         } else if(index == size - 1){
             return removeLast();
         } else {
-            Node holder = head;
-            for (int i = 0; i < index; i++){
+            Node<E> holder = head;
+            for (int i = 0; i < index - 1; i++){
                 holder = holder.next;
             }
-            Node temp = holder.next;
+            Node<E> temp = holder.next;
             holder.next = temp.next;
             size--;
             return (E) temp.element;
@@ -105,16 +109,17 @@ public class MyLinkedList<E> {
         }
     }
     public int search(E e){
-        Node temp = head;
+        Node<E> temp = head;
         for(int i = 0; i < size - 1; i++){
-            if ((E) temp.element == e){
+            if ((E) temp.element == e){  // ?
                 return i;
             }
+            temp = temp.next;
         }
         return -1;
     }
     public void display(){
-        Node temp = head;
+        Node<E> temp = head;
         while (temp != null){
             System.out.println(temp.element);
             temp = temp.next;

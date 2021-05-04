@@ -12,12 +12,12 @@ public class StackMyLinkedList<E> {
         stack.addLast(e);
     }
 
-    public E pop(E e){
+    public E pop(){
         if(stack.isEmpty()){
             System.out.println("Stack is empty");
             return null;
         }
-        return stack.removeFirst();
+        return stack.removeLast();
     }
 
     public E peek(){
