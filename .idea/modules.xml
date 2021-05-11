@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ part-6/ part-6.iml" filepath="$PROJECT_DIR$/ part-6/ part-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM/ATM.iml" filepath="$PROJECT_DIR$/ATM/ATM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoIO/DemoIO.iml" filepath="$PROJECT_DIR$/DemoIO/DemoIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EndModule2/EndModule2.iml" filepath="$PROJECT_DIR$/EndModule2/EndModule2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MODULE 2.iml" filepath="$PROJECT_DIR$/.idea/MODULE 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Part-11/Part-11.iml" filepath="$PROJECT_DIR$/Part-11/Part-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Part-16/Part-16.iml" filepath="$PROJECT_DIR$/Part-16/Part-16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Part-18/Part-18.iml" filepath="$PROJECT_DIR$/Part-18/Part-18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SaveObject/SaveObject.iml" filepath="$PROJECT_DIR$/SaveObject/SaveObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudentDemo/StudentDemo.iml" filepath="$PROJECT_DIR$/StudentDemo/StudentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demoHashMap/demoHashMap.iml" filepath="$PROJECT_DIR$/demoHashMap/demoHashMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-1/part-1.iml" filepath="$PROJECT_DIR$/part-1/part-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-10/part-10.iml" filepath="$PROJECT_DIR$/part-10/part-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-12/part-12.iml" filepath="$PROJECT_DIR$/part-12/part-12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-13/part-13.iml" filepath="$PROJECT_DIR$/part-13/part-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-14/part-14.iml" filepath="$PROJECT_DIR$/part-14/part-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-3/part-3.iml" filepath="$PROJECT_DIR$/part-3/part-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-4/part-4.iml" filepath="$PROJECT_DIR$/part-4/part-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-5/part-5.iml" filepath="$PROJECT_DIR$/part-5/part-5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part-7/part-7.iml" filepath="$PROJECT_DIR$/part-7/part-7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/past-2/past-2.iml" filepath="$PROJECT_DIR$/past-2/past-2.iml" />
+    </modules>
+  </component>
+</project>

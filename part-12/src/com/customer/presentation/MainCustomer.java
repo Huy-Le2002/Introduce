@@ -116,5 +116,6 @@ public class MainCustomer {
         System.out.println("4. Print Data Customer.");
         System.out.println("5. Add Bill Customer.");
         System.out.println("0. Exit.");
+        System.out.println("*************************");
     }
 }

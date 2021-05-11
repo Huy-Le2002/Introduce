@@ -112,7 +112,7 @@ public class ConsoleStudent {
                 '}';
     }
     public String toStringCSV() {
-        return name + "," + maSV + "," + monhoc + "," + heso1 + "," + heso2 + "," + heso3 + "," + hesoo4 + "," + tongket + "\n";
+        return name + "," + maSV + "," + monhoc + "," + heso1 + "," + heso2 + "," + heso3 + "," + hesoo4 + "," + formatPoint(this.getTongket())  + "\n";
     }
     public String toStringStudent() {
         return "ConsoleStudent{" +

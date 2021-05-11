@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b3903e4-93b2-43ef-bf6f-2ad37d872de7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EndModule2/src/com/usehackmap/dal/PhoneBookDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EndModule2/src/com/usehackmap/model/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EndModule2/src/com/usehackmap/presentation/MainPhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EndModule2/src/com/usehackmap/service/PhoneBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM/ATM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/DSA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoIO/DemoIO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-11/Part-11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-16/Part-16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-18/Part-18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentDemo/StudentDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoHashMap/demoHashMap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-1/part-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-10/part-10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/DataCustomer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/part-12/DataCustomer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/out/production/part-12/com/consolestudent/model/ConsoleStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/part-12/out/production/part-12/com/consolestudent/model/ConsoleStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/out/production/part-12/com/customer/presentation/MainCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/part-12/out/production/part-12/com/customer/presentation/MainCustomer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/part-12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/src/com/consolestudent/model/ConsoleStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/part-12/src/com/consolestudent/model/ConsoleStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-12/src/com/customer/presentation/MainCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/part-12/src/com/customer/presentation/MainCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-13/part-13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-14/part-14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-3/part-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-4/part-4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-5/part-5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/part-7/part-7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/past-2/past-2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1s6EyXMFq1TYBvmaJwvyfB4PYU9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/part-12" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b3903e4-93b2-43ef-bf6f-2ad37d872de7" name="Default Changelist" comment="" />
+      <created>1620184894374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620184894374</updated>
+      <workItem from="1620184895749" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
